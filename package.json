@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
-    "@types/prettier": "^3.0.0"
+    "@types/prettier": "^3.0.0",
+    "pretty-quick": "^4.0.0"
   }
 }

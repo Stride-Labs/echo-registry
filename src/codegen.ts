@@ -28,11 +28,16 @@ const main = async () => {
     const relative = `./agents/${directory}/${filename}`;
 
     return {
+      id: directory,
       filename,
       variable,
       relative,
       literal: `import ${variable} from '${relative}'`,
     };
+  });
+
+  list.forEach((data) => {
+    console.log(`[codegen] Including ${data.id} to the entry file`);
   });
 
   const output = await prettier.format(
@@ -52,7 +57,7 @@ const main = async () => {
     { parser: "babel" }
   );
 
-  console.log(`[codegen] Overwriting entry file ${paths.entry}`);
+  console.log(`[codegen] Codegen complete, writing to ${paths.entry}`);
 
   fs.writeFileSync(paths.entry, output, { encoding: "utf-8" });
 };
