@@ -1,8 +1,6 @@
 {
   "name": "echo-registry",
   "private": true,
-  "main": "src/echos.js",
-  "type": "module",
   "engine": "20.17",
   "scripts": {
     "build:codegen": "tsx src/codegen.ts",
