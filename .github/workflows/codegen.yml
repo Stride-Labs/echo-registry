@@ -9,6 +9,9 @@ jobs:
   codegen:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write # Allows the action to create a pull request
+
     steps:
       - uses: actions/checkout@v4
         with:
