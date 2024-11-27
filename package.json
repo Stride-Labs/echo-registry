@@ -1,19 +1,19 @@
 {
   "name": "echo-registry",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "src/echos.js",
   "type": "module",
+  "engine": "20.17",
   "scripts": {
     "build:codegen": "tsx src/codegen.ts",
     "build:prettier": "pretty-quick --check --pattern 'src/**/*.{js,json,ts}'",
     "build:typecheck": "tsc --noEmit",
     "build": "npm run build:codegen && npm run build:prettier && npm run build:typecheck",
-    "start": "vercel dev --listen 4000"
+    "start": "vercel dev --listen 4000",
+    "clean": "sh ./scripts/clean.sh"
   },
   "keywords": [],
   "author": "Kier Borromeo <kier@stridelabs.co>",
-  "license": "ISC",
   "dependencies": {
     "@vercel/node": "^3.2.27",
     "prettier": "^3.4.1",
