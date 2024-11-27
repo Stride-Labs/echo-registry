@@ -1,4 +1,5 @@
 {
+  "$schema": "../../echo.schema.json",
   "creator": "Echos",
   "echoToken": {
     "symbol": "HAL",

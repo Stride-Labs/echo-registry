@@ -1,5 +1,5 @@
 {
-  "$schema": "../echo.schema.json",
+  "$schema": "../../echo.schema.json",
   "creator": "Echos",
   "echoToken": {
     "symbol": "CLARA",
