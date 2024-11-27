@@ -1,13 +1,16 @@
 name: Echo Registry Codegen
 
 on:
-  push:
+  pull_request:
     paths:
       - "src/agents/**"
 
 jobs:
   codegen:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Allows the action to create a pull request
 
     steps:
       - uses: actions/checkout@v4
