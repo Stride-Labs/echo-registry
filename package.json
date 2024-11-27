@@ -6,7 +6,7 @@
     "build:codegen": "tsx src/codegen.ts",
     "build:prettier": "pretty-quick --check --pattern 'src/**/*.{js,json,ts}'",
     "build:typecheck": "tsc --noEmit",
-    "build:validate": "ajv -s src/echo.schema.json -d src/agents/clara/echo.json",
+    "build:validate": "tsx scripts/schema.ts",
     "build": "pnpm build:validate && pnpm run build:prettier && pnpm run build:validate && pnpm run build:typecheck && pnpm run build:codegen",
     "start": "vercel dev --listen 4000",
     "clean": "sh ./scripts/clean.sh"
@@ -16,6 +16,7 @@
   "dependencies": {
     "@vercel/node": "^3.2.27",
     "prettier": "^3.4.1",
+    "tiny-invariant": "^1.3.3",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
@@ -27,6 +28,7 @@
     "ajv": "^8.17.1",
     "ajv-cli": "^5.0.0",
     "ajv-formats": "^3.0.1",
+    "glob": "^11.0.0",
     "pretty-quick": "^4.0.0"
   }
 }
