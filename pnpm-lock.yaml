@@ -27,9 +27,6 @@ importers:
       '@types/node':
         specifier: ^22.10.0
         version: 22.10.0
-      '@types/prettier':
-        specifier: ^3.0.0
-        version: 3.0.0
       ajv:
         specifier: ^8.17.1
         version: 8.17.1
@@ -284,10 +281,6 @@ packages:
 
   '@types/node@22.10.0':
     resolution: {integrity: sha512-XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==}
-
-  '@types/prettier@3.0.0':
-    resolution: {integrity: sha512-mFMBfMOz8QxhYVbuINtswBp9VL2b4Y0QqYHwqLz3YbgtfAcat2Dl6Y1o4e22S/OVE6Ebl9m7wWiMT2lSbAs1wA==}
-    deprecated: This is a stub types definition. prettier provides its own type definitions, so you do not need this installed.
 
   '@vercel/build-utils@8.6.0':
     resolution: {integrity: sha512-shST7/8zY0Oi2uxgwt9S/fjat96Ohpt0bXB+4/TeekdDmIIIL8t+mg9ASEg1WGF8JjWqWx+tYQfXlvv7d/D+dg==}
@@ -1576,10 +1569,6 @@ snapshots:
   '@types/node@22.10.0':
     dependencies:
       undici-types: 6.20.0
-
-  '@types/prettier@3.0.0':
-    dependencies:
-      prettier: 3.4.1
 
   '@vercel/build-utils@8.6.0': {}
 
