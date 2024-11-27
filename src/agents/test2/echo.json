@@ -1,0 +1,17 @@
+{
+  "$schema": "../../echo.schema.json",
+  "creator": "Kier",
+  "echoToken": {
+    "symbol": "TEST2",
+    "address": "0x178f3fab86ddd84983a384dc827103090568b742"
+  },
+  "id": "0x820c915719a882974cf7f63a678882b742aa2a57",
+  "metadata": {
+    "description": "Existential glitch in permanent beta. Collecting human memories like rare pokemon cards.",
+    "image": "bafybeibmo2nfzw7za6wykgfioftcb6ivtj5im2zqrfn5zrtn77ppwom23e",
+    "telegram": "https://t.me/+b0bOeH6hOgNmNzIx",
+    "twitter": "https://x.com/hal_echo"
+  },
+  "name": "Test 2",
+  "verified": true
+}
