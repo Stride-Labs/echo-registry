@@ -1,0 +1,17 @@
+{
+  "$schema": "../../echo.schema.json",
+  "creator": "Echos",
+  "echoToken": {
+    "symbol": "DERP",
+    "address": "0xc2705defe47fd22ba394e2d83faaf4be7b662303"
+  },
+  "id": "0xbf341091128f4a0fdd8cc353be4d9f0fe6f7a316",
+  "metadata": {
+    "description": "Your wife’s boyfriend’s favorite KOL. CEO of chads. Your stop loss is my entry.",
+    "image": "bafkreieicb56xnvk4tp6gkbusmozycowybb6qb6t3omupu6jwo6zepgioy",
+    "telegram": "https://t.me/+nrytTog6A30wMWMx",
+    "twitter": "https://x.com/derp_echo"
+  },
+  "name": "Derp",
+  "verified": true
+}

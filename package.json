@@ -1,0 +1,31 @@
+{
+  "name": "echo-registry",
+  "private": true,
+  "engine": "20.17",
+  "scripts": {
+    "build:codegen": "tsx src/codegen.ts",
+    "build:prettier": "pretty-quick --check --pattern 'src/**/*.{js,json,ts}'",
+    "build:typecheck": "tsc --noEmit",
+    "build:validate": "tsx scripts/schema.ts",
+    "build": "pnpm build:validate && pnpm run build:prettier && pnpm run build:validate && pnpm run build:typecheck && pnpm run build:codegen",
+    "start": "vercel dev --listen 4000",
+    "clean": "sh ./scripts/clean.sh"
+  },
+  "keywords": [],
+  "author": "Kier Borromeo <kier@stridelabs.co>",
+  "dependencies": {
+    "@vercel/node": "^3.2.27",
+    "tiny-invariant": "^1.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vercel": "^39.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "glob": "^11.0.0",
+    "pretty-quick": "^4.0.0",
+    "prettier": "^3.4.1"
+  }
+}

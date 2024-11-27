@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["creator", "echoToken", "id", "metadata", "name", "verified"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Contract address of the echo",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "creator": {
+      "type": "string",
+      "description": "Creator of the echo"
+    },
+    "echoToken": {
+      "type": "object",
+      "required": ["symbol", "address"],
+      "properties": {
+        "symbol": {
+          "type": "string",
+          "description": "Token symbol"
+        },
+        "address": {
+          "type": "string",
+          "description": "Token contract address",
+          "pattern": "^0x[a-fA-F0-9]{40}$"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["description", "image"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "A short description about the echo"
+        },
+        "image": {
+          "type": "string",
+          "description": "IPFS hash of the echo's image"
+        },
+        "telegram": {
+          "type": "string",
+          "description": "Telegram group URL",
+          "pattern": "^https?:\\/\\/(?:t\\.me|telegram\\.me)\\/(?:[+])?[a-zA-Z0-9_]+$"
+        },
+        "twitter": {
+          "type": "string",
+          "description": "Twitter/X profile URL",
+          "pattern": "^https?:\\/\\/(?:twitter\\.com|x\\.com)\\/[a-zA-Z0-9_]+$"
+        }
+      }
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the echo"
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Verification status of the echo"
+    }
+  }
+}
