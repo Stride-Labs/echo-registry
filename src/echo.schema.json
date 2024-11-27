@@ -42,12 +42,12 @@
         "telegram": {
           "type": "string",
           "description": "Telegram group URL",
-          "format": "uri"
+          "pattern": "^https?:\\/\\/(?:t\\.me|telegram\\.me)\\/(?:[+])?[a-zA-Z0-9_]+$"
         },
         "twitter": {
           "type": "string",
           "description": "Twitter/X profile URL",
-          "format": "uri"
+          "pattern": "^https?:\\/\\/(?:twitter\\.com|x\\.com)\\/[a-zA-Z0-9_]+$"
         }
       }
     },
