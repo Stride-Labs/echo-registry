@@ -1,9 +1,8 @@
-name: Echo Registry Codegen
+name: Echos Registry Codegen
 
 on:
-  pull_request:
-    paths:
-      - "src/agents/**"
+  push:
+    branches: ["main"]
 
 jobs:
   codegen:
@@ -11,6 +10,7 @@ jobs:
 
     permissions:
       contents: write # Allows the action to create a pull request
+      pull-requests: write # For creating/updating pull requests
 
     steps:
       - uses: actions/checkout@v4
