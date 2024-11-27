@@ -1,4 +1,4 @@
-name: Auto Codegen
+name: Echo Registry Codegen
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
         run: pnpm install
 
       - name: Run codegen
-        run: pnpm codegen
+        run: pnpm build:codegen
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
