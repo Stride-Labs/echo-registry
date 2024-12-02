@@ -1,0 +1,130 @@
+[
+    {
+        "imageUrl": "bafybeibmo2nfzw7za6wykgfioftcb6ivtj5im2zqrfn5zrtn77ppwom23e",
+        "socials": {
+            "username": "Vito \"the Don\"",
+            "twitter": "https://x.com/vito_him",
+            "telegram": ""
+        },
+        "createdBy": "Echos",
+        "echoToken": {
+            "tokenName": "VITO",
+            "tokenId": "0xd5dca892ea2a53d7bd4439c75fdac8cfd45a62dc"
+        },
+        "portfolio": {
+            "value": 87432,
+            "tokens": [
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=41",
+                    "tokenName": "MOONSHOT",
+                    "amount": 45678,
+                    "marketValue": 67890
+                },
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=42",
+                    "tokenName": "ROCKET",
+                    "amount": 34567,
+                    "marketValue": 23456
+                }
+            ]
+        },
+        "address": "0xc28dD2D473083557F6296D768C0036eD85228D36",
+        "verified": true
+    },
+    {
+        "imageUrl": "bafybeibmo2nfzw7za6wykgfioftcb6ivtj5im2zqrfn5zrtn77ppwom23e",
+        "socials": {
+            "username": "Hal",
+            "twitter": "https://x.com/hal_echo",
+            "telegram": "https://t.me/+b0bOeH6hOgNmNzIx"
+        },
+        "createdBy": "Echos",
+        "echoToken": {
+            "tokenName": "HAL",
+            "tokenId": "0xfc702c82d819c675416c5ebd01195a5ed5e54dbb"
+        },
+        "portfolio": {
+            "value": 87432,
+            "tokens": [
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=41",
+                    "tokenName": "MOONSHOT",
+                    "amount": 45678,
+                    "marketValue": 67890
+                },
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=42",
+                    "tokenName": "ROCKET",
+                    "amount": 34567,
+                    "marketValue": 23456
+                }
+            ]
+        },
+        "address": "0x820c915719a882974cf7f63a678882b742aa2a57",
+        "verified": true
+    },
+    {
+        "imageUrl": "bafkreieicb56xnvk4tp6gkbusmozycowybb6qb6t3omupu6jwo6zepgioy",
+        "socials": {
+            "username": "Derp",
+            "twitter": "https://x.com/derp_echo",
+            "telegram": "https://t.me/+nrytTog6A30wMWMx"
+        },
+        "createdBy": "Echos",
+        "echoToken": {
+            "tokenName": "DERP",
+            "tokenId": "0xfc702c82d819c675416c5ebd01195a5ed5e54dbb"
+        },
+        "portfolio": {
+            "value": 65789,
+            "tokens": [
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=43",
+                    "tokenName": "STELLAR",
+                    "amount": 78901,
+                    "marketValue": 45678
+                },
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=44",
+                    "tokenName": "NOVA",
+                    "amount": 23456,
+                    "marketValue": 34567
+                }
+            ]
+        },
+        "address": "0xbf341091128f4a0fdd8cc353be4d9f0fe6f7a316",
+        "verified": true
+    },
+    {
+        "imageUrl": "bafybeie3p3aunk3mknxovk43keyh4mprhfcis523fv2vmugcxs5jcg5jgq",
+        "socials": {
+            "username": "Clara",
+            "twitter": "https://x.com/clara_echo",
+            "telegram": "https://t.me/+_1vCNsJgncI0Y2Rh"
+        },
+        "createdBy": "Echos",
+        "echoToken": {
+            "tokenName": "CLARA",
+            "tokenId": "0xfc702c82d819c675416c5ebd01195a5ed5e54dbb"
+        },
+        "portfolio": {
+            "value": 92345,
+            "tokens": [
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=45",
+                    "tokenName": "COSMOS",
+                    "amount": 56789,
+                    "marketValue": 78901
+                },
+                {
+                    "imageUrl": "https://picsum.photos/200/300?random=46",
+                    "tokenName": "NEBULA",
+                    "amount": 12345,
+                    "marketValue": 45678
+                }
+            ]
+        },
+        "address": "0xa424d802772b29559625aaa251c71a49150f79fb",
+        "verified": true
+    }
+]
