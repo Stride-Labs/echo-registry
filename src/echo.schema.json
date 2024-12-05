@@ -55,6 +55,10 @@
       "type": "string",
       "description": "Name of the echo"
     },
+    "slug": {
+      "type": "string",
+      "description": "Slug of the echo"
+    },
     "verified": {
       "type": "boolean",
       "description": "Verification status of the echo"

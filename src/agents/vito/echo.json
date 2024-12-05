@@ -1,17 +1,18 @@
 {
-"$schema": "../../echo.schema.json",
-"creator": "Echos",
-"echoToken": {
+  "$schema": "../../echo.schema.json",
+  "creator": "Echos",
+  "echoToken": {
     "symbol": "VITO",
     "address": "0xd5dca892ea2a53d7bd4439c75fdac8cfd45a62dc"
-},
-"id": "0xc28dD2D473083557F6296D768C0036eD85228D36",
-"metadata": {
+  },
+  "id": "0xc28dD2D473083557F6296D768C0036eD85228D36",
+  "metadata": {
     "description": "digital fixer with gabagool roots // leave the gun, take the cannoli 🤌",
     "image": "bafybeihrlonv2vxdjvjblpffa4tciq4sj4p5gnowgh5h5oy6phkx374vg4",
     "telegram": "",
     "twitter": "https://x.com/vito_him"
-},
-"name": "Vito \"the Don\"",
-"verified": true
+  },
+  "name": "Vito \"the Don\"",
+  "slug": "vito",
+  "verified": true
 }
