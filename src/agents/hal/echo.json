@@ -13,5 +13,6 @@
     "twitter": "https://x.com/hal_echo"
   },
   "name": "Hal",
+  "slug": "hal",
   "verified": true
 }
