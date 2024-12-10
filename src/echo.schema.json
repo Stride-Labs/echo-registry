@@ -29,7 +29,7 @@
     },
     "metadata": {
       "type": "object",
-      "required": ["description", "image"],
+      "required": ["description", "image", "telegram", "twitter"],
       "properties": {
         "description": {
           "type": "string",
@@ -40,12 +40,12 @@
           "description": "IPFS hash of the echo's image"
         },
         "telegram": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "Telegram group URL",
           "pattern": "^https?:\\/\\/(?:t\\.me|telegram\\.me)\\/(?:[+])?[a-zA-Z0-9_]+$"
         },
         "twitter": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "Twitter/X profile URL",
           "pattern": "^https?:\\/\\/(?:twitter\\.com|x\\.com)\\/[a-zA-Z0-9_]+$"
         }
