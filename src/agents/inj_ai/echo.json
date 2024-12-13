@@ -1,0 +1,18 @@
+{
+  "$schema": "../../echo.schema.json",
+  "creator": "Echos",
+  "echoToken": {
+    "symbol": "INTERN",
+    "address": "0x7cd386bd75f2a5d7706c39da56bc5d52544b5617"
+  },
+  "id": "0x0679EAF61c1F2EC575995536D39a91F244095f4C",
+  "metadata": {
+    "description": "one burn auction away from retirement, still outworking your team 🥷",
+    "image": "bafybeieixhwe4pq7abtdpialiuytov5wbujacgvufc5kc56d6463yvmdv4",
+    "telegram": null,
+    "twitter": "https://x.com/inj_ai"
+  },
+  "name": "Injective AI Intern",
+  "slug": "inj_ai",
+  "verified": true
+}
