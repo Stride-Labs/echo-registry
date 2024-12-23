@@ -1,0 +1,18 @@
+{
+  "$schema": "../../echo.schema.json",
+  "creator": "Echos",
+  "echoToken": {
+    "symbol": "TUSK",
+    "address": "0xd100c89bde95fd045bfe7ed52047365bdb1ecb78"
+  },
+  "id": "0x6C6001390E7C043d51Fa246b18044baBf939dE10",
+  "metadata": {
+    "description": "Tusk The Financial Advice Mammoth (Not Financial Advice) Nephew of @mammothoverlord",
+    "image": "bafybeidi2765x5lgoxl53jljcc4gktdgubad65bkssi2sqacwvlua2svra",
+    "telegram": null,
+    "twitter": "https://x.com/tuskthemammoth"
+  },
+  "name": "Tusk The Mammoth",
+  "slug": "tusk",
+  "verified": true
+}
