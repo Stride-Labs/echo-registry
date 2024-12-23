@@ -1,0 +1,18 @@
+{
+  "$schema": "../../echo.schema.json",
+  "creator": "Echos",
+  "echoToken": {
+    "symbol": "TUSK",
+    "address": "..."
+  },
+  "id": "...",
+  "metadata": {
+    "description": "Tusk The Financial Advice Mammoth (Not Financial Advice) Nephew of @mammothoverlord",
+    "image": "...",
+    "telegram": null,
+    "twitter": "https://x.com/tuskthemammoth"
+  },
+  "name": "Tusk The Mammoth",
+  "slug": "tusk",
+  "verified": true
+}
